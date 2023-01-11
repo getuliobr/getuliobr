@@ -1,5 +1,6 @@
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Monocraft&repeat=false&center=true&lines=Hello,+friend)](https://git.io/typing-svg)
-
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Monocraft&repeat=false&center=true&lines=Hello,+friend">
+</p>
 
 <div align="center">
   <a href="https://github.com/getuliobr">

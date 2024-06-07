@@ -10,8 +10,7 @@
 <!--
 got gif from here: https://www.deviantart.com/daschinia/art/Tileable-Matrix-Code-362419737
 -->
+[Background from here](https://www.deviantart.com/daschinia/art/Tileable-Matrix-Code-362419737)
 ```math
 \ce{$\unicode[goombafont; color:red; pointer-events: none; z-index: -10; position: fixed; top: 0; left: 0; height: 100vh; object-fit: cover; background-size: cover; width: 130vw; opacity: 0.5; font-family: "Comic Sans MS", "Comic Sans", cursive !important; background: url('https://raw.githubusercontent.com/getuliobr/getuliobr/main/matrix.gif');]{x0000}$}
-
-
-
+```

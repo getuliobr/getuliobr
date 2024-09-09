@@ -1,0 +1,113 @@
+<!-- Taken from https://github.com/DenverCoder1/readme-typing-svg/ -->
+<!-- Inspired by https://github.com/Andrew6rant -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1000 500" style="background-color: #00000000;" width="1000px" height="500px">
+<style>
+text, tspan {
+  font-weight: bold;
+  font-family: Fira Code;
+  fill: #ffffff
+  }
+
+  .user {
+  fill: #69FF94;
+  }
+  
+  .path {
+  fill: #C6A2EA;
+  }
+
+  .languages {
+    white-space: pre;
+  }
+
+  #stars {
+    fill: gold;
+  }
+
+  #added {
+    fill: green;
+  }
+  
+  #removed {
+    fill: #FF0000;
+  }
+
+
+</style>
+  <rect width="100%" height="100%" rx="8" ry="8" fill="#282A36" opacity="0.3"/>
+
+  <path id="path0">
+    <animate id="d0" attributeName="d" begin="0s" dur="1000ms" fill="freeze" values="m0,25 h210 ; m0,25 h210 ; m0,25 h390 ; m0,25 h390" keyTimes="0;0;0.83333333333333;1"/>
+  </path>
+  <text font-family="&quot;Arial&quot;, monospace" fill="#36BCF7" font-size="20" dominant-baseline="auto" x="10" text-anchor="start" letter-spacing="normal">
+    <textPath xlink:href="#path0">
+      <tspan class="user">getul@getulio</tspan>:<tspan class="path">~</tspan>$ cat README.txt
+    </textPath>
+  </text>
+
+  <path id="path1">
+    <animate id="d1" attributeName="d" begin="d0.end" dur="1ms" fill="freeze" values="m0,50 h0 ; m0,50 h0 ; m0,50 h1000 ; m0,50 h1000" keyTimes="0;0.5;0.91666666666667;1"/>
+  </path>
+  <text font-family="&quot;Arial&quot;, monospace" fill="#36BCF7" font-size="20" dominant-baseline="auto" x="10" text-anchor="start" letter-spacing="normal">
+    <textPath xlink:href="#path1">
+      <tspan id='teste' x="10" dy="0">Hi, I'm Getúlio.</tspan>
+      <tspan x="10" dy="25">I am currently studying Computer Science at UTFPR.</tspan>
+      <tspan x="10" dy="25">Currently researching about Open Source Software.</tspan>
+      <tspan x="10" dy="25">My favorite games are Castle Crashers and Portal 2.</tspan>
+      <tspan x="10" dy="50">You can reach me at https://getul.io/</tspan>
+    </textPath>
+  </text>
+
+  <path id="path2">
+    <animate id="d2" attributeName="d" begin="d1.end" dur="1500ms" fill="freeze" values="m0,200 h210 ; m0,200 h210 ; m0,200 h300 ; m0,200 h300" keyTimes="0;0.5;0.83333333333333;1"/>
+  </path>
+  <text font-family="&quot;Arial&quot;, monospace" fill="#36BCF7" font-size="20" dominant-baseline="auto" x="10" text-anchor="start" letter-spacing="normal">
+    <textPath xlink:href="#path2">
+      <tspan class="user">getul@getulio</tspan>:<tspan class="path">~</tspan>$ ./stats
+    </textPath>
+  </text>
+
+  <path id="path3">
+    <animate id="d3" attributeName="d" begin="d2.end" dur="1ms" fill="freeze" values="m0,225 h0 ; m0,225 h0 ; m0,225 h1000 ; m0,225 h1000" keyTimes="0;0.5;0.91666666666667;1"/>
+  </path>
+  <text font-family="&quot;Arial&quot;, monospace" fill="#36BCF7" font-size="20" dominant-baseline="auto" x="10" text-anchor="start" letter-spacing="normal">
+    <textPath xlink:href="#path3">
+      <tspan x="10" dy="0">Total PRs: <tspan id="prs">0</tspan></tspan>
+      <tspan x="10" dy="25">Total Commits: <tspan id="commits">0</tspan></tspan>
+      <tspan x="10" dy="25">Lines added: <tspan id="added">+0</tspan></tspan>
+      <tspan x="10" dy="25">Lines removed:<tspan id="removed">-0</tspan></tspan>
+    </textPath>
+  </text>
+
+  <path id="path4">
+    <animate id="d4" attributeName="d" begin="d3.end" dur="1500ms" fill="freeze" values="m0,325 h210 ; m0,325 h210 ; m0,325 h350 ; m0,325 h350" keyTimes="0;0.5;0.83333333333333;1"/>
+  </path>
+  <text font-family="&quot;Arial&quot;, monospace" fill="#36BCF7" font-size="20" dominant-baseline="auto" x="10" text-anchor="start" letter-spacing="normal">
+    <textPath xlink:href="#path4">
+      <tspan class="user">getul@getulio</tspan>:<tspan class="path">~</tspan>$ ./languages
+    </textPath>
+  </text>
+
+  <path id="path5">
+    <animate id="d5" attributeName="d" begin="d4.end" dur="1ms" fill="freeze" values="m0,350 h0 ; m0,350 h0 ; m0,350 h1000 ; m0,350 h1000" keyTimes="0;0.5;0.91666666666667;1"/>
+  </path>
+  <text font-family="&quot;Arial&quot;, monospace" fill="#36BCF7" font-size="20" dominant-baseline="auto" x="10" text-anchor="start" letter-spacing="normal">
+    <textPath class="languages" xlink:href="#path5">
+<tspan x="10" dy="0"  id="top1">Python     (100%) [##########----------]</tspan>
+<tspan x="10" dy="25" id="top2">TypeScript (100%) [--------------------]</tspan>
+<tspan x="10" dy="25" id="top3">JavaScript (100%) [--------------------]</tspan>
+<tspan x="10" dy="25" id="top4">Vue        (100%) [--------------------]</tspan>
+<tspan x="10" dy="25" id="top5">C          (100%) [--------------------]</tspan>
+    </textPath>
+  </text>
+
+<path id="path6">
+    <animate id="d6" attributeName="d" begin="d5.end" dur="1000ms" repeatCount="indefinite" values="m0,475 h210 ; m0,475 h210 ; m0,475 h230 ; m0,475 h230" keyTimes="0;0.5;0.83333333333333;1"/>
+  </path>
+  <text font-family="&quot;Arial&quot;, monospace" fill="#36BCF7" font-size="20" dominant-baseline="auto" x="10" text-anchor="start" letter-spacing="normal">
+    <textPath xlink:href="#path6">
+      <tspan class="user">getul@getulio</tspan>:<tspan class="path">~</tspan>$ │ 
+    </textPath>
+  </text>
+
+</svg>

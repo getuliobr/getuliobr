@@ -17,7 +17,7 @@ text, tspan {
   }
 
   .languages {
-    white-space: pre;
+    white-space-collapse: preserve-spaces;
   }
 
   #stars {

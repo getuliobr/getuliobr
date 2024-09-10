@@ -17,4 +17,4 @@ import os
 #         }
 #     }
 
-print(os.environ('teste'))
+print(os.environ['TESTE'])

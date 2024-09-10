@@ -18,3 +18,4 @@ import os
 #     }
 
 print(os.environ['TESTE'])
+print(os.environ['VARIAVEL_TESTE'])

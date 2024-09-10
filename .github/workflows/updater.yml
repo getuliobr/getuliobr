@@ -29,4 +29,5 @@ jobs:
       - name: Run python script
         env:
           TESTE: ${{ secrets.TESTE }}
-        run: python today.py
+          VARIAVEL_TESTE: ${{ vars.VARIAVEL_TESTE }}
+        run: python main.py

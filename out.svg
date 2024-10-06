@@ -1,6 +1,4 @@
-<!-- Taken from https://github.com/DenverCoder1/readme-typing-svg/ -->
-<!-- Inspired by https://github.com/Andrew6rant -->
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1000 500" style="background-color: #00000000;" width="1000px" height="500px">
+<?xml version="1.0" encoding="utf-8"?><!-- Taken from https://github.com/DenverCoder1/readme-typing-svg/ --><!-- Inspired by https://github.com/Andrew6rant --><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1000 500" style="background-color: #00000000;" width="1000px" height="500px">
 <style>
 text, tspan {
   font-weight: bold;
@@ -50,7 +48,7 @@ text, tspan {
   </path>
   <text font-family="&quot;Arial&quot;, monospace" fill="#36BCF7" font-size="20" dominant-baseline="auto" x="10" text-anchor="start" letter-spacing="normal">
     <textPath xlink:href="#path1">
-      <tspan id='teste' x="10" dy="0">Hi, I'm Getúlio.</tspan>
+      <tspan id="teste" x="10" dy="0">Hi, I'm Getúlio.</tspan>
       <tspan x="10" dy="25">I am currently studying Computer Science at UTFPR.</tspan>
       <tspan x="10" dy="25">Currently researching about Open Source Software.</tspan>
       <tspan x="10" dy="25">My favorite games are Castle Crashers and Portal 2.</tspan>
@@ -72,10 +70,10 @@ text, tspan {
   </path>
   <text font-family="&quot;Arial&quot;, monospace" fill="#36BCF7" font-size="20" dominant-baseline="auto" x="10" text-anchor="start" letter-spacing="normal">
     <textPath xlink:href="#path3">
-      <tspan x="10" dy="0">Total PRs: <tspan id="prs">0</tspan></tspan>
+      <tspan x="10" dy="0">Total PRs: <tspan id="prs">60</tspan></tspan>
       <tspan x="10" dy="25">Total Commits: <tspan id="commits">0</tspan></tspan>
-      <tspan x="10" dy="25">Additions: <tspan id="additions">+0</tspan></tspan>
-      <tspan x="10" dy="25">Deletions: <tspan id="deletions">-0</tspan></tspan>
+      <tspan x="10" dy="25">Additions: <tspan id="additions">+330248</tspan></tspan>
+      <tspan x="10" dy="25">Deletions: <tspan id="deletions">-290533</tspan></tspan>
     </textPath>
   </text>
 
@@ -93,7 +91,7 @@ text, tspan {
   </path>
   <text font-family="&quot;Arial&quot;, monospace" fill="#36BCF7" font-size="20" dominant-baseline="auto" x="10" text-anchor="start" letter-spacing="normal">
     <textPath class="languages" xlink:href="#path5">
-<tspan x="10" dy="0"  id="top1">Python     (100%) [##########----------]</tspan>
+<tspan x="10" dy="0" id="top1">Python     (100%) [##########----------]</tspan>
 <tspan x="10" dy="25" id="top2">TypeScript (100%) [--------------------]</tspan>
 <tspan x="10" dy="25" id="top3">JavaScript (100%) [--------------------]</tspan>
 <tspan x="10" dy="25" id="top4">Vue        (100%) [--------------------]</tspan>

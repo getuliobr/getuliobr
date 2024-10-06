@@ -1,1 +1,0 @@
-[![Typing SVG](./base.svg)](https://git.io/typing-svg)

@@ -15,9 +15,10 @@ if len(commits):
 
 for commit in commits:
   _, addi, dele = process_commit(commit)
-   
-  data['additions'] += addi
-  data['deletions'] += dele
+  
+  # Uncomment to ignore node_modules and templates
+  data['additions'] += addi if addi < 10000 else 0
+  data['deletions'] += dele if addi < 10000 else 0
   data['commits'] += 1
 
 svg.update('additions', f'+{data["additions"]}')

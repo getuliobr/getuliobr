@@ -8,22 +8,17 @@ with open('info.json', 'r+') as jsonFile:
   data = json.load(jsonFile)
 
 
-latestCommitDate = data['latestCommitDate']
+commits = get_user_commits('getuliobr', after=data['latestCommitDate'])
 
-commits = get_user_commits('getuliobr', after=latestCommitDate)
-data['latestCommitDate'] = None
+if len(commits):
+  data['latestCommitDate'], _, _ = process_commit(commits[0])
 
 for commit in commits:
-  date, addi, dele = process_commit(commit)
-  
-  if not data['latestCommitDate']:
-    data['latestCommitDate'] = date
-  
+  _, addi, dele = process_commit(commit)
+   
   data['additions'] += addi
   data['deletions'] += dele
   data['commits'] += 1
-
-data['latestCommitDate'] = latestCommitDate
 
 svg.update('additions', f'+{data["additions"]}')
 svg.update('deletions', f'-{data["deletions"]}')

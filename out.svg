@@ -20,9 +20,10 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE. --><!-- Inspired by https://github.com/Andrew6rant --><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1000 500" style="background-color: #00000000;" width="1000px" height="500px">
 <style>
+
 text, tspan {
   font-weight: bold;
-  font-family: Fira Code;
+  font-family: 'Fira Code', monospace;
   fill: #ffffff
   }
 
@@ -87,9 +88,9 @@ text, tspan {
   <text font-family="&quot;Arial&quot;, monospace" fill="#36BCF7" font-size="20" dominant-baseline="auto" x="10" text-anchor="start" letter-spacing="normal">
     <textPath xlink:href="#path3">
       <tspan x="10" dy="0">Total PRs: <tspan id="prs">60</tspan></tspan>
-      <tspan x="10" dy="25">Total Commits: <tspan id="commits">889</tspan></tspan>
-      <tspan x="10" dy="25">Additions: <tspan id="additions">+154700</tspan></tspan>
-      <tspan x="10" dy="25">Deletions: <tspan id="deletions">-25423</tspan></tspan>
+      <tspan x="10" dy="25">Total Commits: <tspan id="commits">890</tspan></tspan>
+      <tspan x="10" dy="25">Additions: <tspan id="additions">+154701</tspan></tspan>
+      <tspan x="10" dy="25">Deletions: <tspan id="deletions">-25424</tspan></tspan>
     </textPath>
   </text>
 

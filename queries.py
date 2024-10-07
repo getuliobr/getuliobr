@@ -90,6 +90,9 @@ def get_user_languages_percentage(login):
   for repo in repositories:
     for language in repo['languages']['edges']:
       name = language['node']['name']
+      # those two languages are just biasing
+      if name in ['Vue', 'Jupyter Notebook']:
+        continue
       size = language['size']
       languages[name] += size
       total += size

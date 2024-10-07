@@ -10,6 +10,8 @@ with open('info.json', 'r+') as jsonFile:
 
 latestCommitDate = data['latestCommitDate']
 
+print(get_user_prs_count('getuliobr'))
+
 commits = get_user_commits('getuliobr', after=latestCommitDate)
 data['latestCommitDate'] = None
 

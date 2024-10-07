@@ -12,6 +12,7 @@ def get_user_commits(login, after='2000-01-01T00:00:00Z'):
   page = 1
   while len(commits) < total:
     response = requests.get(f'https://api.github.com/search/commits?q=author:{login}+author-date:>{after}&page={page}&per_page=100&sort=author-date', headers=headers).json()
+    print(response)
     total = response['total_count']
     commits.extend(response['items'])
     page += 1

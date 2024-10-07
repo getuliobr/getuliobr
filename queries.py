@@ -21,7 +21,7 @@ def get_user_commits(login, after='2000-01-01T00:00:00Z'):
 
 def get_user_prs_count(login):
   response = requests.get(f'https://api.github.com/search/issues?q=is:pr+author:{login}', headers=headers).json()
-  print(response)
+  print(os.environ["TOKEN"][:4], response)
   return response['total_count']
   
 

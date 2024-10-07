@@ -71,9 +71,9 @@ text, tspan {
   <text font-family="&quot;Arial&quot;, monospace" fill="#36BCF7" font-size="20" dominant-baseline="auto" x="10" text-anchor="start" letter-spacing="normal">
     <textPath xlink:href="#path3">
       <tspan x="10" dy="0">Total PRs: <tspan id="prs">60</tspan></tspan>
-      <tspan x="10" dy="25">Total Commits: <tspan id="commits">880</tspan></tspan>
-      <tspan x="10" dy="25">Additions: <tspan id="additions">+1409530</tspan></tspan>
-      <tspan x="10" dy="25">Deletions: <tspan id="deletions">-1187699</tspan></tspan>
+      <tspan x="10" dy="25">Total Commits: <tspan id="commits">1761</tspan></tspan>
+      <tspan x="10" dy="25">Additions: <tspan id="additions">+2819162</tspan></tspan>
+      <tspan x="10" dy="25">Deletions: <tspan id="deletions">-2375483</tspan></tspan>
     </textPath>
   </text>
 

@@ -87,9 +87,9 @@ text, tspan {
   <text font-family="&quot;Arial&quot;, monospace" fill="#36BCF7" font-size="20" dominant-baseline="auto" x="10" text-anchor="start" letter-spacing="normal">
     <textPath xlink:href="#path3">
       <tspan x="10" dy="0">Total PRs: <tspan id="prs">60</tspan></tspan>
-      <tspan x="10" dy="25">Total Commits: <tspan id="commits">884</tspan></tspan>
-      <tspan x="10" dy="25">Additions: <tspan id="additions">+154550</tspan></tspan>
-      <tspan x="10" dy="25">Deletions: <tspan id="deletions">-25389</tspan></tspan>
+      <tspan x="10" dy="25">Total Commits: <tspan id="commits">886</tspan></tspan>
+      <tspan x="10" dy="25">Additions: <tspan id="additions">+154664</tspan></tspan>
+      <tspan x="10" dy="25">Deletions: <tspan id="deletions">-25403</tspan></tspan>
     </textPath>
   </text>
 
@@ -107,11 +107,11 @@ text, tspan {
   </path>
   <text font-family="&quot;Arial&quot;, monospace" fill="#36BCF7" font-size="20" dominant-baseline="auto" x="10" text-anchor="start" letter-spacing="normal">
     <textPath class="languages" xlink:href="#path5">
-<tspan x="10" dy="0" id="top1">Jupyter Not (87%) [#################---]</tspan>
-<tspan x="10" dy="25" id="top2">Python       (3%) [--------------------]</tspan>
-<tspan x="10" dy="25" id="top3">JavaScript   (2%) [--------------------]</tspan>
-<tspan x="10" dy="25" id="top4">Vue          (2%) [--------------------]</tspan>
-<tspan x="10" dy="25" id="top5">C            (2%) [--------------------]</tspan>
+<tspan x="10" dy="0" id="top1">Python      (33%) [######--------------]</tspan>
+<tspan x="10" dy="25" id="top2">JavaScript  (24%) [####----------------]</tspan>
+<tspan x="10" dy="25" id="top3">C           (18%) [###-----------------]</tspan>
+<tspan x="10" dy="25" id="top4">HTML         (6%) [#-------------------]</tspan>
+<tspan x="10" dy="25" id="top5">MATLAB       (3%) [--------------------]</tspan>
     </textPath>
   </text>
 

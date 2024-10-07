@@ -1,4 +1,4 @@
-[![About me SVG](./out.svg)]
+![About me SVG](./out.svg)
   
 <div align="center">
   <a href="https://github.com/getuliobr">

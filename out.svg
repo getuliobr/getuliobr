@@ -73,7 +73,7 @@ text, tspan {
       <tspan x="10" dy="0">Total PRs: <tspan id="prs">60</tspan></tspan>
       <tspan x="10" dy="25">Total Commits: <tspan id="commits">883</tspan></tspan>
       <tspan x="10" dy="25">Additions: <tspan id="additions">+154547</tspan></tspan>
-      <tspan x="10" dy="25">Deletions: <tspan id="deletions">-1186212</tspan></tspan>
+      <tspan x="10" dy="25">Deletions: <tspan id="deletions">-25386</tspan></tspan>
     </textPath>
   </text>
 

@@ -66,7 +66,7 @@ text, tspan {
   <text font-family="&quot;Arial&quot;, monospace" fill="#36BCF7" font-size="20" dominant-baseline="auto" x="10" text-anchor="start" letter-spacing="normal">
     <textPath xlink:href="#path1">
       <tspan id="teste" x="10" dy="0">Hi, I'm Getúlio.</tspan>
-      <tspan x="10" dy="25">I am currently studying Computer Science at UTFPR.</tspan>
+      <tspan x="10" dy="25">I'm a master's student in Computer Science at UTFPR.</tspan>
       <tspan x="10" dy="25">Currently researching about Open Source Software.</tspan>
       <tspan x="10" dy="25">My favorite games are Castle Crashers and Portal 2.</tspan>
       <tspan x="10" dy="50">You can reach me at https://getul.io/</tspan>

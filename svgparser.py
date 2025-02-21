@@ -2,7 +2,7 @@ from xml.dom import minidom
 
 class SVGParser:
   def __init__(self, path):
-    self.dom = minidom.parse('base.svg')
+    self.dom = minidom.parse(path)
     for node in self.dom.getElementsByTagName("*"):
       if node.hasAttribute("id"):
         node.setIdAttribute("id")
